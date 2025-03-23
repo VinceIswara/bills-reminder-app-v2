@@ -2,6 +2,11 @@
 
 This is a Bill Reminder application that helps users track and manage their bills with automated notifications. The app can be accessed from both web and mobile app browsers.
 
+## Repository
+
+The source code for this project is available on GitHub:
+[https://github.com/VinceIswara/bills-reminder-app-v2](https://github.com/VinceIswara/bills-reminder-app-v2)
+
 ## Features
 - Extract bill information from images (uploaded files or mobile camera)
 - Edit extracted bill information
