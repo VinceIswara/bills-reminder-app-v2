@@ -160,7 +160,7 @@ app.listen(PORT, () => {
   console.log(`- Supabase: ${(process.env.SUPABASE_URL && process.env.SUPABASE_KEY) ? '✅ Configured' : '❌ Missing'}`);
   console.log(`- Email Provider: ${process.env.EMAIL_PROVIDER ? '✅ Configured' : '❌ Missing'}`);
   console.log(`- Google OAuth: ${(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET) ? '✅ Configured' : '❌ Missing'}`);
-  console.log(`- Session Secret: ${process.env.SESSION_SECRET ? '✅ Configured' : '⚠️ Using default'}`);
+  console.log(`- Session Secret: ${process.env.SESSION_SECRET ? '✅ Configured' : '⚠ Missing (using default)'}`);
   console.log(`- Test User ID: ${process.env.TEST_USER_ID ? '✅ Configured' : '❌ Missing'}`);
   console.log(`- Test Email: ${process.env.TEST_EMAIL ? '✅ Configured' : '❌ Missing'}`);
   console.log('-'.repeat(50));
